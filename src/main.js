@@ -7,7 +7,9 @@ Vue.use(VueRouter);
 //导入vue-resource
 import VueResource from 'vue-resource';
 //安装vue-resource
-Vue.component(VueResource);
+Vue.use(VueResource);
+// import axios from 'axios';
+// Vue.use(axios);
 
 import app from './App.vue';
 

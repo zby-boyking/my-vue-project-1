@@ -28,6 +28,12 @@
         this.$http.get("http://127.0.0.1:8080/data").then(result => {
           console.log(result);
         });
+        // this.axios.get({
+        //   method: 'get',
+        //   url: 'http://127.0.0.1:8080/data'
+        // }).then(res => {
+        //   console.log(res);
+        // });
       }
     }
   }
